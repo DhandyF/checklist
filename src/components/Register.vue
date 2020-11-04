@@ -38,7 +38,7 @@ export default {
   },
   methods : {
     tologin(){
-      this.$router.push('/login')
+      this.$router.push('/')
     },
     register() {
       this.$http({
